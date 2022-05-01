@@ -1,0 +1,41 @@
+.header{
+  background-color: dodgerblue;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jsontocsv{
+  background-color:aquamarine;
+  display: flex;
+
+  .jsonbody{
+    background-color: aqua;
+    width: 50%;
+    height: 90vh;
+    border: 0.2rem solid black;
+
+    textarea{
+      height: 100%;
+      width: 100%;
+      resize: none;
+      padding: .5rem;
+    }
+  }
+  .csvbody{
+    background-color: rgb(223, 225, 235);
+    width: 50%;
+    height: 90vh;
+    border: 0.2rem solid rgb(252, 251, 251);
+
+
+    .title{
+      background-color:rgb(101, 190, 241);
+      font-weight: 600;
+      padding: .3rem;
+      text-transform: uppercase;
+
+    }
+  }
+}
